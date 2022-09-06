@@ -6,16 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <title>Ecrypter</title>
 </head>
 <body>
     <header>
-
+        <div class = 'wrapper'>
+            <h1 class = 'mainTitle'>Encrypter</h1>
+        </div>
     </header>
 
     <main>
 
-        <section>
+        <section class = 'inputArea'>
             <textarea id ='textInput' placeholder = 'Write your message here!'></textarea>
           <div class = 'buttons'>
 
@@ -29,13 +34,15 @@
 
         </section>
 
-        <section>
-            <textarea id = 'result'>
-
-           </textarea>
-           <button class = 'copy' onclick = copy()>
-            copy
-           </button>
+        <section class ='messageBox'>
+        
+         
+                <textarea id = 'result'>
+                </textarea>
+                <button class = 'copy' onclick = copy()>
+                copy
+                </button>
+           
         </section>
 
     </main>

@@ -14,7 +14,7 @@ function btnEncrypt(){
 
 function encrypt(encryptedString){
     
-    let codeMatrix = [['a', 'ai'],['e', 'enter'],['i', 'imes'],['o', 'ober'],['u' , 'ufat']]
+    let codeMatrix =  [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o","ober"], ["u","ufat"]]
     encryptedString = encryptedString.toLowerCase();
 
     for(let i = 0; i < codeMatrix.length; i++) {
@@ -40,7 +40,7 @@ function btnDecrypt(){
 
 function decrypt(DecryptedString){
     
-    let codeMatrix = [['a', 'ai'],['e', 'enter'],['i', 'imes'],['o', 'ober'],['u' , 'ufat']]
+    let codeMatrix =  [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o","ober"], ["u","ufat"]]
     DecryptedString = DecryptedString.toLowerCase();
 
     for(let i = 0; i < codeMatrix.length; i++) {
